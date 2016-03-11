@@ -99,7 +99,7 @@ OS: Ubuntu 14.04 x64
 		sudo mkdir -p /srv/lancache/data/arenanetworks
 		
 	- 11.1 chowning can be achieved by: 
-		sudo chmod -R 755 /srv/lancache
+		sudo chown -R lancache /srv/lancache
 
 	12) Copy the conf folder and contents (where you originally git cloned it to in step 4) to /usr/local/nginx/conf/
 	13) Copy the Lancache file from init.d/ to /etc/init.d/ by:

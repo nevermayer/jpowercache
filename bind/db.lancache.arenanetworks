@@ -13,5 +13,5 @@ $TTL	86400
 ;
 @	IN	NS	Bender-VM.
 
-@	IN	A	192.168.1.90
-*	IN	A	192.168.1.90
+@	IN	A	lc-host-arena
+*	IN	A	lc-host-arena

@@ -4,14 +4,14 @@
 ; Instead, copy it, edit named.conf, and use that copy.
 ;
 $TTL	86400
-@	IN	SOA	Bender-VM. 192.168.1.1 (
+@	IN	SOA	lc-hostname. lc-host-gw (
 			      1		; Serial
 			 604800		; Refresh
 			  86400		; Retry
 			2419200		; Expire
 			  86400 )	; Negative Cache TTL
 ;
-@	IN	NS	Bender-VM.
+@	IN	NS	lc-hostname. 
 
-@	IN	A	192.168.1.91
-*	IN	A	192.168.1.91
+@	IN	A	lc-host-steam
+*	IN	A	lc-host-steam

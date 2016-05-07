@@ -37,3 +37,7 @@ zone "blzddist2-b.akamaihd.net." IN {
         file "/etc/bind/db.lancache.blizzard";
 };
 
+zone "level3.blizzard.com." IN {
+        type master;
+        file "/etc/bind/db.lancache.blizzard";
+};

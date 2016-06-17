@@ -1,4 +1,4 @@
-LAN-Cache v1.1.3
+LAN-Cache
 ==============
 
 Based off work of https://gitlab.com/frag-o-matic/lan-cache
